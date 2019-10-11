@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reside-IC</title>
+    <link>https://reside-ic.github.io/</link>
+    <description>Recent content on Reside-IC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://reside-ic.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gotchaR - Bumps in the road for the learneR driver.</title>
+      <link>https://reside-ic.github.io/blog/gotchar---bumps-in-the-road-for-the-learner-driver./</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/gotchar---bumps-in-the-road-for-the-learner-driver./</guid>
+      <description>I am about 3 years into the journey of learning R. There is a lot to get used to, when my previous landmarks have been languages based around Java, C, Pascal, Basic and some dabblings with assemblers of various breeds. Mostly, my adjustment has been about doing things the way R likes; turning loop-ish code into vector-ish code, using the right base functions properly and thinking about data in columns for a start.</description>
+    </item>
+    
+    <item>
+      <title>All carrot, no stick - virtuous circles and useful tools</title>
+      <link>https://reside-ic.github.io/blog/all-carrot-no-stick---virtuous-circles-and-useful-tools/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/all-carrot-no-stick---virtuous-circles-and-useful-tools/</guid>
+      <description>A vicious circle of software use might go something like this:
+A user employs a suite of generic software tools, together with their own domain knowledge and sense of good practice, to design their own workflow to get a task done. This workflow starts off with the best of intentions, but really only exists in the user&amp;rsquo;s head. Consequently, as time goes on, as deadlines threaten, corners are cut. Next, the cutting of those corners becomes habitual, and the workflow degenerates.</description>
+    </item>
+    
+    <item>
+      <title>Deferring errors with R</title>
+      <link>https://reside-ic.github.io/blog/deferring-errors-with-r/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/deferring-errors-with-r/</guid>
+      <description>How do you run a block of code and collect up all the errors in order to report them back in a batch? This is the sort of thing that might turn up in a validation exercise where we want to check a number of properties of the provided data and then report back in one go all the errors so that the user can fix multiple problems at each upload attempt.</description>
+    </item>
+    
+    <item>
+      <title>Querying for foreign key constraints</title>
+      <link>https://reside-ic.github.io/blog/querying-for-foreign-key-constraints/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/querying-for-foreign-key-constraints/</guid>
+      <description>Over the past few months we&amp;rsquo;ve been developing a tool to assist with database import from R. As part of that we want to automate some of the import steps to both reduce the development work needed for each import and to make code review easier.
+We want to be able to take a list of data frames in R and append those to the relevant tables in the database automatically.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re hiring: R/C&#43;&#43;/Malaria Developer</title>
+      <link>https://reside-ic.github.io/blog/hiring-2019-malaria-developer/</link>
+      <pubDate>Wed, 03 Jul 2019 07:57:16 +0100</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/hiring-2019-malaria-developer/</guid>
+      <description>We are hiring! We&amp;rsquo;re looking for a developer to join our team to work with the malaria modelling research group on developing simulation models that will be used to investigate the impact of interventions to prevent the spread of malaria.
+No prior experience with malaria or epidemiology is needed as you&amp;rsquo;ll be working closely with a friendly team of computational researchers. You&amp;rsquo;ll work with the rest of our RSE team who will help you gather requirements from the researchers, understand the existing code, and review your code.</description>
+    </item>
+    
+    <item>
+      <title>jsonvalidate 1.1.0</title>
+      <link>https://reside-ic.github.io/blog/jsonvalidate-1.1.0/</link>
+      <pubDate>Tue, 25 Jun 2019 07:38:50 +0100</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/jsonvalidate-1.1.0/</guid>
+      <description>JSON is useful as a data-interchange format, due to the massive popularity of javascript. Basically every language supports reading and writing JSON now, so it makes a nice lowest common denominator.
+When generating JSON from an application, it is useful to be able to describe how the data is structured - so if we return output like
+{ &amp;quot;id&amp;quot;: 1, &amp;quot;name&amp;quot;: &amp;quot;A green door&amp;quot;, &amp;quot;price&amp;quot;: 12.50, &amp;quot;tags&amp;quot;: [&amp;quot;home&amp;quot;, &amp;quot;green&amp;quot;] }  We might describe it in words like:</description>
+    </item>
+    
+    <item>
+      <title>jQuery TreeTables 1.1.1</title>
+      <link>https://reside-ic.github.io/blog/jquery-treetables-1.1.1/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/jquery-treetables-1.1.1/</guid>
+      <description>We just released a new npm package TreeTables for displaying tree data when using jQuery DataTables.
+DataTables is a powerful and extremely well established plugin for displaying tabular data, but has no native support for tree (nested) data. Examples of tree data include family trees, phylogenetic trees, and organisational hierarchies.
+The TreeTables plugin adds that support with an interface that is almost identical to that of DataTables.
+Features include:
+ toggling individual rows open and closed expanding or collapsing all rows arbitrarily deeply nested data  Basic usage:</description>
+    </item>
+    
+    <item>
+      <title>dde 1.0.0</title>
+      <link>https://reside-ic.github.io/blog/dde-1.0.0/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/dde-1.0.0/</guid>
+      <description>Last week we released the first public version of dde. This package implements a method for solving delay differential equations, which we use with odin to model disease dynamics.
+With ordinary differential equations, you express the system of equations as dy/dt = f(y(t), t); the rate of change of the system depends on the current state of the system and the current time, but with delay differential equations dy/dt also depends on y(t - τ), where τ is a length of time back into the past.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://reside-ic.github.io/projects/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/projects/</guid>
+      <description>An incomplete list of some projects that we have worked on within our RSE group.
+Collaborative work with research groups The Vaccine Impact Modelling Consortium The Vaccine Impact Modelling Consortium coordinates the work of several research groups modelling the impact of vaccination programmes worldwide. We provide the technical infrastructure for this project, including
+ a web-based system for collecting, verifying and storing many gigabytes of modelling results a reproducible-research system for the project scientists to work with this data interactive data visualisation a web-based system for disseminating results  Shiny90 An R Shiny web interface for a model that estimates the proportion of people living with HIV who are aware of their status given national or regional data.</description>
+    </item>
+    
+    <item>
+      <title>vaultr 1.0.2</title>
+      <link>https://reside-ic.github.io/blog/vaultr-1.0.2/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/vaultr-1.0.2/</guid>
+      <description>We are pleased to announce the first public release of vaultr, our R client for HashiCorp&amp;rsquo;s &amp;ldquo;vault&amp;rdquo;, a system for storing secrets and sensitive data and enabling these secrets to be used in applications.
+Vault (the server) is a little like a password manager (e.g., LastPass or Bitwarden) but designed for use within applications, rather than for storing personal passwords. With vault, you can have a central source of secrets and sensitive data (ssh keys, database passwords, ssl certificates) that can be used when deploying or using applications.</description>
+    </item>
+    
+    <item>
+      <title>Debugging at the edge of reason</title>
+      <link>https://reside-ic.github.io/blog/debugging-at-the-edge-of-reason/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/debugging-at-the-edge-of-reason/</guid>
+      <description>What do you do if this code&amp;hellip;
+printf(&amp;quot;Before loop\n&amp;quot;); while ((a&amp;gt;0) &amp;amp;&amp;amp; (b&amp;gt;0)) { printf(&amp;quot;Inside loop\n&amp;quot;); // Other loop code } if (a&amp;gt;0) printf(&amp;quot;a&amp;gt;0\n&amp;quot;); if (b&amp;gt;0) printf(&amp;quot;b&amp;gt;0\n&amp;quot;); if ((a&amp;gt;0) &amp;amp;&amp;amp; (b&amp;gt;0)) printf(&amp;quot;Both a&amp;gt;0 and b&amp;gt;0!&amp;quot;);  &amp;hellip;produces this output?
+Before loop a&amp;gt;0 b&amp;gt;0 Both a&amp;gt;0 and b&amp;gt;0!  If a and b are both above zero, then why didn&amp;rsquo;t the while-loop do any iteration; why didn&amp;rsquo;t we see Inside loop in the output?</description>
+    </item>
+    
+    <item>
+      <title>Integrating YouTrack and GitHub workflows</title>
+      <link>https://reside-ic.github.io/blog/integrating-youtrack-and-github-workflows/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/integrating-youtrack-and-github-workflows/</guid>
+      <description>Like most technical teams we use an issue tracker to manage our work. Our tool of choice for this is YouTrack. We also make extensive use of GitHub and to synchronise our workflow across the two platforms we name our git branches with YouTrack ticket ids, so every pull request corresponds to a ticket. This naming convention makes it easier to track work in progress across the two platforms, plus the custom tool we use to deploy our software can use git to look at which branches have been merged in and auto-update the corresponding YouTrack tickets.</description>
+    </item>
+    
+    <item>
+      <title>cinterpolate 1.0.0</title>
+      <link>https://reside-ic.github.io/blog/cinterpolate-1.0.0/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/cinterpolate-1.0.0/</guid>
+      <description>Last week we released the first official version of cinterpolate to available on CRAN. This package provides a minimal set of interpolation methods (piecewise constant, linear and spline) designed to be compatible with R&amp;rsquo;s builtin approx and spline functions, but but callable from C. It will primarily be of interest to people writing R packages that include C or C++.
+When writing an R package with C or C++ extensions, you have to forgo many of the the functions that make operating in a high-level easy.</description>
+    </item>
+    
+    <item>
+      <title>odin 0.2.0</title>
+      <link>https://reside-ic.github.io/blog/odin-0.2.0/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/odin-0.2.0/</guid>
+      <description>After a rather long period of gestation, yesterday I merged in a long-running rewrite of odin. This is a major rework of odin which lays the groundwork for future improvements later this year.
+Odin is our package for working with differential equations at a high level - it includes support for the sort of &amp;ldquo;structured compartmental models&amp;rdquo; that we use a lot in the department, compiling these to C for efficient execution.</description>
+    </item>
+    
+    <item>
+      <title>Metrics at Imperial*</title>
+      <link>https://reside-ic.github.io/blog/metrics-at-imperial/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/blog/metrics-at-imperial/</guid>
+      <description>What metrics should a software team be recording to measure their performance? Should these metrics have a different focus for RSE teams in general, and ourselves in particular?
+In previous jobs in a more commercial setting, I had become accustomed to thinking about &amp;lsquo;metrics&amp;rsquo; in two broad categories - firstly those defining the performance and health of online systems (number of requests served, click through rate, uptime etc), and secondly those measuring the productivity of the team in making additions and improvements to those systems (story point burndown, number of open bugs, feature leadtime).</description>
+    </item>
+    
+    <item>
+      <title>Pull Request review process</title>
+      <link>https://reside-ic.github.io/articles/pull-requests/</link>
+      <pubDate>Tue, 05 Mar 2019 14:53:37 -0700</pubDate>
+      
+      <guid>https://reside-ic.github.io/articles/pull-requests/</guid>
+      <description>Our pull request review process is an ongoing work-in-progress. This document outlines the timeline, expectations, general points and ongoing issues. Some of it is particular to how we work (using YouTrack and TeamCity in addition to GitHub) but it may be of use to others.
+Expectations What the different parties expect to get out of the PR review process
+Author All authors appreciate feedback on:
+ What have I done wrong, or what could I do better?</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://reside-ic.github.io/about/</link>
+      <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/about/</guid>
+      <description> Research Software for Infectious Disease Epidemiology - we are a team of 7 research software engineers working within the MRC Centre for Global Infectious Disease Analysis and the Department of Infectious Disease Epidemiology at Imperial College London.
+The team  Alex Hill Emma Russell James Thompson Rich FitzJohn Robert Ashton Wes Hinsley  Alumni  Martin Eden  </description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://reside-ic.github.io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/home/</guid>
+      <description>Research Software for Infectious Disease Epidemiology - we are a team of 7 research software engineers working within the MRC Centre for Global Infectious Disease Analysis and the Department of Infectious Disease Epidemiology at Imperial College London.</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://reside-ic.github.io/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reside-ic.github.io/license/</guid>
+      <description>You can use this page to put a license on the contents of your blog, like so:
+ The MIT License (MIT)
+Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+  </channel>
+</rss>
